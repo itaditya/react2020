@@ -1,0 +1,15 @@
+/* src/style.css */
+
+.image-list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  width: 800px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.image-item {
+  list-style: none;
+  scroll-snap-align: start;
+}
